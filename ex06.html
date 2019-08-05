@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinhtienhoahong</title>
+</head>
+<body>
+Doanh so ban hang :<input id="nhap"><br>
+<button onclick="nhap();">tinh tien hoa hong !</button>
+<output id="HoaHong">Hoa Hong :</output>
+<script>
+    function nhap() {
+        let doanhThu = parseInt(document.getElementById("nhap").value);
+        let hoaHong = doanhThu*5/100;
+        document.getElementById("HoaHong").innerHTML = hoaHong;
+    }
+</script>
+
+</body>
+</html>

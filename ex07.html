@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+Nhap thoi gian su dung: <input id="nhap" type="number"><br>
+<button onclick = tinhTien() >tinh tien!</button>
+<output id="ra">gia cuoc dien thoai se duoc hien o day :</output> VND
+<script>
+    function tinhTien() {
+        let phut = document.getElementById("nhap").value;
+        let tienRa = phut* 600;
+        document.getElementById("ra").innerHTML = tienRa;
+
+    }
+</script>
+</body>
+</html>
